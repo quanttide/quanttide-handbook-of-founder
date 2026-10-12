@@ -1,0 +1,19 @@
+version: 1
+project:
+  title: 量潮创始人手册
+  description: 量潮创始人手册 - 操作规范与做法
+  keywords: [量潮创始人, 手册]
+  authors:
+    - name: 量潮科技
+  license: CC-BY-4.0
+  toc:
+    - file: index.md
+    - title: 写作
+      children:
+        - file: write/motivation.md
+        - file: write/methods.md
+        - file: write/blockers.md
+site:
+  template: book-theme
+  options:
+    folders: true

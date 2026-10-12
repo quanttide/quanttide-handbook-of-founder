@@ -6,6 +6,6 @@
 
 ## 目录
 
-- [write/1_创作动机.md](./write/1_创作动机.md)：写作与自我。
-- [write/2_创作方法.md](./write/2_创作方法.md)：创作方法。
-- [write/3_创作困境.md](./write/3_创作困境.md)：卡点与不敢写。
+- [write/motivation.md](./write/motivation.md)：写作与自我——为什么写、写作承担的私人任务。
+- [write/methods.md](./write/methods.md)：创作方法——素材、结构与风格、打磨的节奏。
+- [write/blockers.md](./write/blockers.md)：卡点与不敢写——卡住的地方与成因。
