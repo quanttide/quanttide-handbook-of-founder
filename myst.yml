@@ -15,7 +15,7 @@ project:
         - file: write/blockers.md
     - title: 工作
       children:
-        - file: work/ai-collaboration.md
+        - file: work/human-agent-collaboration.md
 site:
   template: book-theme
   options:
