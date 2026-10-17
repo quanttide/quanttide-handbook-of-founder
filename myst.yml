@@ -13,6 +13,9 @@ project:
         - file: write/motivation.md
         - file: write/methods.md
         - file: write/blockers.md
+    - title: 工作
+      children:
+        - file: work/ai-collaboration.md
 site:
   template: book-theme
   options:

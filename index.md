@@ -9,3 +9,4 @@
 - [write/motivation.md](./write/motivation.md)：写作与自我——为什么写、写作承担的私人任务。
 - [write/methods.md](./write/methods.md)：创作方法——素材、结构与风格、打磨的节奏。
 - [write/blockers.md](./write/blockers.md)：卡点与不敢写——卡住的地方与成因。
+- [work/ai-collaboration.md](./work/ai-collaboration.md)：与 AI 协作——被牵着走与用得不顺手时的两条做法。
