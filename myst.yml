@@ -22,6 +22,7 @@ project:
     - title: 媒体
       children:
         - file: media/material/photo.md
+        - file: media/material/video.md
 site:
   template: book-theme
   options:
