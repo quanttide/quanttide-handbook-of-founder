@@ -21,7 +21,8 @@ project:
         - file: auth/icloud.md
     - title: 媒体
       children:
-        - file: media/material/photo.md
+        - file: media/index.md
+        - file: media/material/image.md
         - file: media/material/video.md
 site:
   template: book-theme

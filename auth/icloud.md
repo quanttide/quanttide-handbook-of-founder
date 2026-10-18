@@ -1,6 +1,6 @@
 # iCloud
 
-Apple 账号的命令行认证。一次交互式登录后，会话会自动续期，供后续从 iCloud 相册同步素材使用。取得素材的操作见 [照片素材](../media/material/photo.md)。
+Apple 账号的命令行认证。一次交互式登录后，会话会自动续期，供后续从 iCloud 相册同步素材使用。取得素材的操作见 [照片素材](../media/material/image.md)。
 
 ## 安装
 

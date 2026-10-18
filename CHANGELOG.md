@@ -13,7 +13,7 @@
 ### 变更
 
 - `write/` 三篇按工作手册体裁重写：去掉原始日志摘录式叙述与「定位」节，改为主题化的做法、判断与边界
-- `media/material/`：拆分为 `photo.md`（图片）与 `video.md`（视频）；素材目录固定为 `images` / `videos`，只保留 JPG / MP4，补转码与 Live Photo 处理
+- `media/material/`：拆分为 `image.md`（图片）与 `video.md`（视频）；素材目录固定为 `images` / `videos`，只保留 JPG / MP4，补转码与 Live Photo 处理
 
 ### 新增
 
@@ -22,4 +22,5 @@
 - `write/` 文件名改英文（`motivation.md` / `methods.md` / `blockers.md`），按手册风格补「定位」节；新增 `myst.yml`（书名、目录与导航）
 - 新增 `work/human-agent-collaboration.md`：人机协作的三步做法（识别信号、冷静处理、沉淀规则），从 `data/profile/think/ai-collaboration.*` 的关键逻辑整理
 - `auth/icloud.md`：Apple 账号的命令行认证（区域域名、会话与常见排查）
-- 新增 `media/` 目录：`material/photo.md`（照片素材）与 `material/video.md`（视频素材）从 iCloud 相册同步（自 `auth/icloud.md` 迁入），`content/video.md` 待补
+- 新增 `media/` 目录：`material/image.md`（照片素材）与 `material/video.md`（视频素材）从 iCloud 相册同步（自 `auth/icloud.md` 迁入），`content/` 待补
+- `media/index.md`：新增媒体工作流程总览（选题、素材、加工、发布）
