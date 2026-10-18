@@ -16,6 +16,9 @@ project:
     - title: 工作
       children:
         - file: work/human-agent-collaboration.md
+    - title: 认证
+      children:
+        - file: auth/apple.md
 site:
   template: book-theme
   options:

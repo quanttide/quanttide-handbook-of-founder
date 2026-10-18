@@ -10,3 +10,4 @@
 - [write/methods.md](./write/methods.md)：创作方法——素材、结构与风格、打磨的节奏。
 - [write/blockers.md](./write/blockers.md)：卡点与不敢写——卡住的地方与成因。
 - [work/human-agent-collaboration.md](./work/human-agent-collaboration.md)：人机协作——识别信号、冷静处理与沉淀规则。
+- [auth/apple.md](./auth/apple.md)：账号与认证——Apple 账号的 iCloud 照片同步。
