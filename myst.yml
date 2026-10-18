@@ -19,6 +19,9 @@ project:
     - title: 认证
       children:
         - file: auth/icloud.md
+    - title: 媒体
+      children:
+        - file: media/material/photo.md
 site:
   template: book-theme
   options:

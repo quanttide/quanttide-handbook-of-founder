@@ -17,7 +17,8 @@
 
 - [write/](./write/)：创作的动机、方法与卡点。
 - [work/](./work/)：人机协作等工作的做法。
-- [auth/](./auth/)：iCloud 图库同步与 Apple 账号认证。
+- [auth/](./auth/)：iCloud 账号的命令行认证。
+- [media/](./media/)：素材获取与内容制作。
 
 ## 许可
 

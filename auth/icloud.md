@@ -1,6 +1,6 @@
 # iCloud
 
-用 icloudpd 把 iCloud 图库同步到本地，以及所需的 Apple 账号命令行认证。适用于需要把照片和视频素材拉到工作站、又不想逐台手动导出的场景。
+Apple 账号的命令行认证。一次交互式登录后，会话会自动续期，供后续从 iCloud 相册同步素材使用。取得素材的操作见 [照片素材](../media/material/photo.md)。
 
 ## 安装
 
@@ -30,65 +30,11 @@ Apple insists on using iCloud.com.cn for your request. Please use --domain param
 icloudpd --domain cn --username <Apple ID> --auth-only
 ```
 
-会话保存在 `~/.pyicloud/`，之后命令会自动续期，直到 2FA 过期；届时重新执行认证命令。双重认证码是一次性的，不要写入脚本或文档。
-
-## 查看相册
-
-```bash
-icloudpd --domain cn --username <Apple ID> --list-albums
-```
-
-不加 `--album` 时操作整个图库；只同步指定相册时加 `--album "相册名"`。
-
-## 同步
-
-照片和视频分开执行，用 `--skip-videos` 与 `--skip-photos` 分流。以下示例把内容放到 `~/Pictures/iCloud/`，按实际素材目录替换。
-
-照片：
-
-```bash
-icloudpd --domain cn --username <Apple ID> \
-  --directory ~/Pictures/iCloud/images \
-  --skip-videos \
-  --size original \
-  --folder-structure '{:%Y/%m}' \
-  --set-exif-datetime \
-  --xmp-sidecar
-```
-
-视频：
-
-```bash
-icloudpd --domain cn --username <Apple ID> \
-  --directory ~/Pictures/iCloud/videos \
-  --skip-photos \
-  --folder-structure '{:%Y/%m}' \
-  --set-exif-datetime
-```
-
-正式执行前先用 `--recent 5 --dry-run` 试跑，确认选中的文件和落盘路径。
-
-主要参数：
-
-- `--size original`：拉取原图，避免拿到 iCloud 优化存储的缩略图；
-- `--folder-structure '{:%Y/%m}'`：按拍摄年月分目录，降低同名冲突；
-- `--set-exif-datetime`：文件缺少 EXIF 拍摄时间时用创建时间补齐；
-- `--xmp-sidecar`：把相册、地点等附加信息导出为 XMP；
-- `--until-found N`：增量同步时，遇到 N 个已下载项即停止。
-
-Live Photo 会连同配对的 MOV 一起下载，MOV 可能落在照片目录下；只需要静态图时加 `--skip-live-photos`。
-
-重复执行同一命令即可增量同步，工具按文件名和大小识别已下载文件。
-
-## 安全与自动化
-
-密码不要写进命令或仓库，认证交互由本人完成。会话文件位于 `~/.pyicloud/`，权限为 `600`。
-
-长期同步可用 cron 或 systemd timer 定时执行同一命令。`--watch-with-interval 3600` 可以常驻轮询，但进程退出后不会自行恢复。
+会话保存在 `~/.pyicloud/`，之后命令会自动续期，直到 2FA 过期；届时重新执行认证命令。双重认证码是一次性的，不要写入脚本或文档。密码不要写进命令或仓库，会话文件权限为 `600`。
 
 ## 排查
 
-退出码为 0 不代表成功。`--list-albums` 不报错但列不出相册、日志里出现 `Apple iCloud setup is not complete` 时，通常是账号还没在网页端完成初始化：登录 [iCloud 网页版](https://www.icloud.com.cn/) 接受条款，确认图库能打开后再试。
+退出码为 0 不代表成功。用 `--list-albums` 检查时，不报错但列不出相册、日志里出现 `Apple iCloud setup is not complete`，通常是账号还没在网页端完成初始化：登录 [iCloud 网页版](https://www.icloud.com.cn/) 接受条款，确认图库能打开后再试。
 
 其他常见现象：
 
