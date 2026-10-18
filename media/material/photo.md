@@ -14,13 +14,13 @@ icloudpd --domain cn --username <Apple ID> --list-albums
 
 ## 同步
 
-照片和视频分开执行，用 `--skip-videos` 与 `--skip-photos` 分流。以下示例把内容放到 `~/Pictures/iCloud/`，按实际素材目录替换。
+照片和视频分开执行，用 `--skip-videos` 与 `--skip-photos` 分流。以下示例以 `<素材目录>` 为目标目录，按实际路径替换。
 
 照片：
 
 ```bash
 icloudpd --domain cn --username <Apple ID> \
-  --directory ~/Pictures/iCloud/images \
+  --directory <素材目录>/images \
   --skip-videos \
   --size original \
   --folder-structure '{:%Y/%m}' \
@@ -32,7 +32,7 @@ icloudpd --domain cn --username <Apple ID> \
 
 ```bash
 icloudpd --domain cn --username <Apple ID> \
-  --directory ~/Pictures/iCloud/videos \
+  --directory <素材目录>/videos \
   --skip-photos \
   --folder-structure '{:%Y/%m}' \
   --set-exif-datetime
@@ -55,5 +55,3 @@ Live Photo 会连同配对的 MOV 一起下载，MOV 可能落在照片目录下
 ## 自动化
 
 长期同步可用 cron 或 systemd timer 定时执行同一命令。`--watch-with-interval 3600` 可以常驻轮询，但进程退出后不会自行恢复。
-
-认证、会话与账号异常见 [iCloud 账号认证](../../auth/icloud.md)。
