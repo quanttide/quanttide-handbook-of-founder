@@ -17,7 +17,7 @@
 
 - [write/](./write/)：创作的动机、方法与卡点。
 - [work/](./work/)：人机协作等工作的做法。
-- [auth/](./auth/)：Apple 账号认证与 iCloud 照片同步。
+- [auth/](./auth/)：iCloud 图库同步与 Apple 账号认证。
 
 ## 许可
 
