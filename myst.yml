@@ -11,6 +11,7 @@ project:
     - title: 工作
       children:
         - file: work/human-agent-collaboration.md
+        - file: work/background-implementation-delegation.md
     - title: 认证
       children:
         - file: auth/icloud.md

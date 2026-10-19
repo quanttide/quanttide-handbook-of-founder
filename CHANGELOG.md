@@ -22,6 +22,7 @@
 
 ### 新增
 
+- `work/background-implementation-delegation.md`：后台实现任务的派单——场景、派单原话、对象/任务/交付/合格线四项要素、七步操作、派单模板与派单前检查，自案例集迁入
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）
 - 迁入 `write/`：创作的做法与卡点三篇（创作动机 / 创作方法 / 创作困境），源自 `data/context/write/essay/`
 - `write/` 文件名改英文（`motivation.md` / `methods.md` / `blockers.md`），按手册风格补「定位」节；新增 `myst.yml`（书名、目录与导航）
