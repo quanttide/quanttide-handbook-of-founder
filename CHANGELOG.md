@@ -12,6 +12,7 @@
 
 ### 移除
 
+- `media/material/image.md`、`media/material/video.md`：迁出至案例集 `work/export-icloud-photo.md`，合并为一个导出工作流；手册侧不留副本，`media/index.md` 只保留目录与格式规则并指向该工作流
 - `write/` 三篇迁出：整合为论文仓库 `write/from-reality-to-fiction.md`（从现实到虚构）；手册回归操作规范体裁，不收创作动机类个人内容
 
 ### 变更

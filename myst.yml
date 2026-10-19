@@ -17,8 +17,6 @@ project:
     - title: 媒体
       children:
         - file: media/index.md
-        - file: media/material/image.md
-        - file: media/material/video.md
 site:
   template: book-theme
   options:

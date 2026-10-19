@@ -9,5 +9,3 @@
 - [work/human-agent-collaboration.md](./work/human-agent-collaboration.md)：人机协作——识别信号、冷静处理与沉淀规则。
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [media/index.md](./media/index.md)：媒体——从选题、素材、加工到发布的基本流程。
-- [media/material/image.md](./media/material/image.md)：媒体与素材——从 iCloud 相册同步照片。
-- [media/material/video.md](./media/material/video.md)：媒体与素材——从 iCloud 相册同步视频。

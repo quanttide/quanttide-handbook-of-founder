@@ -8,7 +8,9 @@
 
 ## 素材
 
-把手机相册里的原始素材同步到工作站。照片和视频都用 icloudpd 从 iCloud 同步，按类型分放 `<素材目录>/images` 和 `<素材目录>/videos`；同步后把 HEIC 转成 JPG、MOV 转成 MP4，素材目录只保留通用格式。详见 [图片素材](./material/image.md) 与 [视频素材](./material/video.md)。
+把手机相册里的原始素材同步到工作站。照片和视频都用 icloudpd 从 iCloud 同步，按类型分放 `<素材目录>/images` 和 `<素材目录>/videos`；同步后把 HEIC 转成 JPG、MOV 转成 MP4，素材目录只保留通用格式。
+
+同步与转码的具体做法已定义成工作流，见案例集 `work/export-icloud-photo.md`。本篇只保留规则：目录固定两个、每目录只放一种格式、不保留原格式。
 
 ## 加工
 
