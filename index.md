@@ -6,6 +6,6 @@
 
 ## 目录
 
-- [agent/index.md](./agent/index.md)：智能体协作——判断方、编排方与执行方，对话与仓库的关系结构。
+- [agent/index.md](./agent/index.md)：智能体协作——owner 与 reviewer 的两方结构，直连与转发的取舍。
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [media/index.md](./media/index.md)：媒体——从选题、素材、加工到发布的基本流程。

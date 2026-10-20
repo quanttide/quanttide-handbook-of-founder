@@ -24,7 +24,7 @@
 
 ### 新增
 
-- `agent/index.md`：只保留协作结构与关系——三个主体（判断方、编排方、执行方）与两个载体（对话、仓库）；基本规律、人的职责、失效条件不再单列
+- `agent/index.md`：智能体协作的结构——owner 与 reviewer 两方，直连与转发两种连接方式，仓库为唯一交接点；不含规律与操作步骤
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）
 - 迁入 `write/`：创作的做法与卡点三篇（创作动机 / 创作方法 / 创作困境），源自 `data/context/write/essay/`
 - `write/` 文件名改英文（`motivation.md` / `methods.md` / `blockers.md`），按手册风格补「定位」节；新增 `myst.yml`（书名、目录与导航）
