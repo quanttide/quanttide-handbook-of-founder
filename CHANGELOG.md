@@ -12,6 +12,8 @@
 
 ### 移除
 
+- `work/human-agent-collaboration.md`：迁出至知识工作手册 `stage/clarify.md`，按必要生命周期阶段重新定义
+
 - `media/material/image.md`、`media/material/video.md`：迁出至案例集的导出工作流，合并为一篇；来源侧不留副本，`media/index.md` 只保留目录与格式规则
 - `write/` 三篇迁出：整合为论文仓库 `write/from-reality-to-fiction.md`（从现实到虚构）；手册回归操作规范体裁，不收创作动机类个人内容
 
