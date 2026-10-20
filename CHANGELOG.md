@@ -18,14 +18,14 @@
 
 ### 变更
 
-- `work/` 两篇移入 `agent/`：`background-implementation-delegation.md` → `agent/delegation.md`，`mobile-workflow.md` → `agent/mobile-workflow.md`；按智能体协作关系归组
+- `work/` 两篇移入 `agent/`：`background-implementation-delegation.md` → `agent/hermes-workflow.md`，`mobile-workflow.md` → `agent/mobile-workflow.md`；按智能体协作关系归组
 - `write/` 三篇按工作手册体裁重写：去掉原始日志摘录式叙述与「定位」节，改为主题化的做法、判断与边界
 - `media/material/`：拆分为 `image.md`（图片）与 `video.md`（视频）；素材目录固定为 `images` / `videos`，只保留 JPG / MP4，补转码与 Live Photo 处理
 
 ### 新增
 
 - `agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环
-- `agent/delegation.md`：Hermes 的后台实现派单——派单原话、对象/任务/交付/合格线四项要素、七步操作、派单模板与派单前检查；手机与电脑同一模板，只换入口，自案例集迁入
+- `agent/hermes-workflow.md`：Hermes 的后台实现派单——派单原话、对象/任务/交付/合格线四项要素、七步操作、派单模板与派单前检查；手机与电脑同一模板，只换入口，自案例集迁入
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）
 - 迁入 `write/`：创作的做法与卡点三篇（创作动机 / 创作方法 / 创作困境），源自 `data/context/write/essay/`
 - `write/` 文件名改英文（`motivation.md` / `methods.md` / `blockers.md`），按手册风格补「定位」节；新增 `myst.yml`（书名、目录与导航）

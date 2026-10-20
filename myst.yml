@@ -10,7 +10,7 @@ project:
     - file: index.md
     - title: 智能体
       children:
-        - file: agent/delegation.md
+        - file: agent/hermes-workflow.md
         - file: agent/mobile-workflow.md
     - title: 认证
       children:
