@@ -19,12 +19,12 @@
 
 ### 变更
 
-
 - `write/` 三篇按工作手册体裁重写：去掉原始日志摘录式叙述与「定位」节，改为主题化的做法、判断与边界
 - `media/material/`：拆分为 `image.md`（图片）与 `video.md`（视频）；素材目录固定为 `images` / `videos`，只保留 JPG / MP4，补转码与 Live Photo 处理
 
 ### 新增
 
+- `agent/index.md`：智能体协作的一般规律——判断方、编排方、执行方的关系结构，七条基本规律，人的职责与失效条件；不含入口与步骤
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）
 - 迁入 `write/`：创作的做法与卡点三篇（创作动机 / 创作方法 / 创作困境），源自 `data/context/write/essay/`
 - `write/` 文件名改英文（`motivation.md` / `methods.md` / `blockers.md`），按手册风格补「定位」节；新增 `myst.yml`（书名、目录与导航）
