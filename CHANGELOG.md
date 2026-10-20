@@ -24,6 +24,7 @@
 
 ### 新增
 
+- `agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 偶尔使用
 - `agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环
 - `agent/hermes-workflow.md`：Hermes 的后台实现派单——派单原话、对象/任务/交付/合格线四项要素、七步操作、派单模板与派单前检查；手机与电脑同一模板，只换入口，自案例集迁入
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）

@@ -10,8 +10,9 @@ project:
     - file: index.md
     - title: 智能体
       children:
-        - file: agent/hermes-workflow.md
+        - file: agent/desktop-workflow.md
         - file: agent/mobile-workflow.md
+        - file: agent/hermes-workflow.md
     - title: 认证
       children:
         - file: auth/icloud.md
