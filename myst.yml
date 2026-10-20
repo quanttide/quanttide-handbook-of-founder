@@ -8,10 +8,10 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
-    - title: 工作
+    - title: 智能体
       children:
-        - file: work/background-implementation-delegation.md
-        - file: work/mobile-workflow.md
+        - file: agent/delegation.md
+        - file: agent/mobile-workflow.md
     - title: 认证
       children:
         - file: auth/icloud.md
