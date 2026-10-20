@@ -12,6 +12,7 @@ project:
       children:
         - file: work/human-agent-collaboration.md
         - file: work/background-implementation-delegation.md
+        - file: work/mobile-workflow.md
     - title: 认证
       children:
         - file: auth/icloud.md
