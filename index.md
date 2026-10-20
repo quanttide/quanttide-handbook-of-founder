@@ -6,6 +6,5 @@
 
 ## 目录
 
-- [agent/index.md](./agent/index.md)：智能体协作——电脑端、移动端工作流与后台派单的分工与共同特点。
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [media/index.md](./media/index.md)：媒体——从选题、素材、加工到发布的基本流程。
