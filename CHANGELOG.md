@@ -12,6 +12,7 @@
 
 ### 移除
 
+- `agent/index.md`：智能体协作升格为规格，迁出至规格仓库并改为规格体裁、增加形式化规则；来源侧不留副本
 - `agent/` 四篇：电脑端工作流、移动端工作流、后台派单与协作总览迁出至案例集 `work/agent/`，来源侧不留副本
 - `work/human-agent-collaboration.md`：迁出至知识工作手册 `stage/clarify.md`，按必要生命周期阶段重新定义
 - `media/material/image.md`、`media/material/video.md`：迁出至案例集的导出工作流，合并为一篇；来源侧不留副本，`media/index.md` 只保留目录与格式规则

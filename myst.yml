@@ -8,9 +8,6 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
-    - title: 智能体
-      children:
-        - file: agent/index.md
     - title: 认证
       children:
         - file: auth/icloud.md
