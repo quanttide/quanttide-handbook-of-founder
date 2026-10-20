@@ -6,8 +6,6 @@
 
 ## 目录
 
-- [agent/desktop-workflow.md](./agent/desktop-workflow.md)：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi 项目交互、Hermes desktop 全局整理。
-- [agent/mobile-workflow.md](./agent/mobile-workflow.md)：移动端工作流——手机派单与查收、电脑执行、官网 App 评审的闭环。
-- [agent/hermes-workflow.md](./agent/hermes-workflow.md)：后台实现任务的派单——从派单到验收的操作步骤与模板。
+- [agent/index.md](./agent/index.md)：智能体协作——电脑端、移动端工作流与后台派单的分工与共同特点。
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [media/index.md](./media/index.md)：媒体——从选题、素材、加工到发布的基本流程。
