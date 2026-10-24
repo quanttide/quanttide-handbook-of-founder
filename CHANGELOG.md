@@ -20,6 +20,7 @@
 
 ### 变更
 
+- `media/` 目录更名为 `create/`：`media/index.md` → `create/index.md`（纯路径迁移，内容不变）；`index.md`、`README.md`、`myst.yml` 引用同步
 - `agent/index.md`：重写直连与转发——直连为理想模式，判断落在仓库产物上，代价是人工操作多（移动端工作流）；转发省人工，判断经转述，结构不如直连理想（后台派单）
 - `write/` 三篇按工作手册体裁重写：去掉原始日志摘录式叙述与「定位」节，改为主题化的做法、判断与边界
 - `media/material/`：拆分为 `image.md`（图片）与 `video.md`（视频）；素材目录固定为 `images` / `videos`，只保留 JPG / MP4，补转码与 Live Photo 处理

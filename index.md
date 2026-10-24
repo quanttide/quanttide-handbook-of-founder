@@ -7,4 +7,4 @@
 ## 目录
 
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
-- [media/index.md](./media/index.md)：媒体——从选题、素材、加工到发布的基本流程。
+- [create/index.md](./create/index.md)：媒体——从选题、素材、加工到发布的基本流程。
