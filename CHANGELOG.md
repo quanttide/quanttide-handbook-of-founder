@@ -27,6 +27,7 @@
 
 ### 新增
 
+- `code/plan.md`：改动范围——扩大范围前先说清问题、概率与复杂度代价，征得同意再动手；自 `data/context/work/handbook/` 迁入，正文未改
 - `work/mobile-workflow.md`：手机工作流手册（元宝对话 + Working Copy，单对话连续产出，手动整理即归位），自 `data/context/work/handbook/` 迁入，正文未改
 - `work/roadmap-maintenance.md`：路线图维护手册（第一版必冗，生成 → 大改 → 定稿，附三个自检），自 `data/context/work/handbook/` 迁入，正文未改
 - `agent/index.md`：智能体协作的结构——owner 与 reviewer 两方，直连与转发两种连接方式，仓库为唯一交接点；不含规律与操作步骤
