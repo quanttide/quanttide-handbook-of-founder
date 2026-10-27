@@ -8,3 +8,5 @@
 
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [create/index.md](./create/index.md)：媒体——从选题、素材、加工到发布的基本流程。
+- [work/mobile-workflow.md](./work/mobile-workflow.md)：手机工作流——元宝对话加 Working Copy，边想边归位。
+- [work/roadmap-maintenance.md](./work/roadmap-maintenance.md)：路线图维护——第一版当素材，生成后默认大改一遍。

@@ -27,6 +27,8 @@
 
 ### 新增
 
+- `work/mobile-workflow.md`：手机工作流手册（元宝对话 + Working Copy，单对话连续产出，手动整理即归位），自 `data/context/work/handbook/` 迁入，正文未改
+- `work/roadmap-maintenance.md`：路线图维护手册（第一版必冗，生成 → 大改 → 定稿，附三个自检），自 `data/context/work/handbook/` 迁入，正文未改
 - `agent/index.md`：智能体协作的结构——owner 与 reviewer 两方，直连与转发两种连接方式，仓库为唯一交接点；不含规律与操作步骤
 - 初始化手册仓库：`README.md`（定位与同域分工）、`index.md`（目录入口，待补充）
 - 迁入 `write/`：创作的做法与卡点三篇（创作动机 / 创作方法 / 创作困境），源自 `data/context/write/essay/`
