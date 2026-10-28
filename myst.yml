@@ -14,6 +14,9 @@ project:
     - title: 媒体
       children:
         - file: create/index.md
+    - title: 写作
+      children:
+        - file: write/agent-output-review.md
     - title: 工作
       children:
         - file: work/mobile-workflow.md

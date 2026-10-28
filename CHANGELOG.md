@@ -27,6 +27,8 @@
 
 ### 新增
 
+- `write/agent-output-review.md`：智能体产出复核——AI 产出默认不可信，网页端润色不算确认，人工读过才标 `confirmed`
+
 - `code/plan.md`：改动范围——扩大范围前先说清问题、概率与复杂度代价，征得同意再动手；自 `data/context/work/handbook/` 迁入，正文未改
 - `work/mobile-workflow.md`：手机工作流手册（元宝对话 + Working Copy，单对话连续产出，手动整理即归位），自 `data/context/work/handbook/` 迁入，正文未改
 - `work/roadmap-maintenance.md`：路线图维护手册（第一版必冗，生成 → 大改 → 定稿，附三个自检），自 `data/context/work/handbook/` 迁入，正文未改
