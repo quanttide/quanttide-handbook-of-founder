@@ -24,6 +24,9 @@ project:
     - title: 代码
       children:
         - file: code/plan.md
+    - title: 设计
+      children:
+        - file: design/layout.md
 site:
   template: book-theme
   options:

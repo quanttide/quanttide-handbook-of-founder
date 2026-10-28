@@ -27,6 +27,8 @@
 
 ### 新增
 
+- `design/layout.md`：布局解释——让布局承担含义，不必要的次级标签与描述一律删，只留抽掉会产生歧义的标签；自 `data/context/default/handbook/design.md` 迁入
+
 - `write/ai-assisted-writing.md`：AI 辅助写作——AI 产出默认不可信，网页端润色不算确认，人工读过才标 `confirmed`
 
 - `code/plan.md`：改动范围——扩大范围前先说清问题、概率与复杂度代价，征得同意再动手；自 `data/context/work/handbook/` 迁入，正文未改
