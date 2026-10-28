@@ -8,7 +8,7 @@
 
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
 - [create/index.md](./create/index.md)：媒体——从选题、素材、加工到发布的基本流程。
-- [write/ai-assisted-writing.md](./write/ai-assisted-writing.md)：AI 辅助写作——默认不可信，网页端润色，人读过才算确认。
+- [write/index.md](./write/index.md)：AI 辅助写作——默认不可信，网页端润色，人读过才算确认。
 - [code/plan.md](./code/plan.md)：代码改动——扩大范围前先说清问题、概率与复杂度代价。
 - [design/layout.md](./design/layout.md)：布局解释——让布局承担含义，不必要的次级标签与描述一律删。
 - [work/mobile-workflow.md](./work/mobile-workflow.md)：手机工作流——元宝对话加 Working Copy，边想边归位。

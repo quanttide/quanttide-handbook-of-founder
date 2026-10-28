@@ -16,7 +16,7 @@ project:
         - file: create/index.md
     - title: 写作
       children:
-        - file: write/ai-assisted-writing.md
+        - file: write/index.md
     - title: 工作
       children:
         - file: work/mobile-workflow.md
