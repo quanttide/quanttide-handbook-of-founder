@@ -27,6 +27,7 @@
 
 ### 变更
 
+- `code/usability-testing.md` **迁至 `design/usability-testing.md`**：实测按两面分开取证——UX 走一遍（对照实验、步数、回源头、恢复路径），UI 看物件（四态截图、挑术语、核访问）；新增边界「两面不互相顶替」
 - `code/plan.md` 正文迁出至章程仓 `code/scope.md`《改动范围章程》并升为线，本仓只留指针——线属章程，手册不重复立法
 - `intro/founder-charter.md`（章程仓）第三、六、七、八条的做法迁入本仓《内容归位》：捕获三条硬约束的执行、Top 3 归位建议、攒批与待办节奏
 
