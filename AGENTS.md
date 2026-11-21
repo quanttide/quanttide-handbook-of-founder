@@ -16,7 +16,6 @@ quanttide-handbook-of-founder 是**人机协作最佳实践的正本**：把反�
 docs/handbook/
 ├── auth/        账号与认证
 ├── code/        代码工作流与改动范围
-├── create/      素材获取与内容制作
 ├── design/      界面布局与可用性实测
 ├── work/        手机工作流与路线图维护
 ├── write/       AI 辅助写作

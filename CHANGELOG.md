@@ -8,6 +8,8 @@
 
 ---
 
+- create/index.md 迁出至 quanttide-create 领域仓；清单与 myst 注册同步移除
+
 ## [Unreleased]
 
 ### 移除

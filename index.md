@@ -7,7 +7,6 @@
 ## 目录
 
 - [auth/icloud.md](./auth/icloud.md)：账号与认证——Apple 账号的命令行认证。
-- [create/index.md](./create/index.md)：媒体——从选题、素材、加工到发布的基本流程。
 - [write/index.md](./write/index.md)：AI 辅助写作——默认不可信，网页端润色，人读过才算确认。
 - [code/plan.md](./code/plan.md)：代码改动——扩大范围前先说清问题、概率与复杂度代价（线属章程，本仓留指针）。
 - [work/content-filing.md](./work/content-filing.md)：内容归位——捕获、回填、归位建议与批量处理。
